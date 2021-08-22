@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main_body{
+    background-color: bisque;
+    margin: 0;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.function-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea{
+    margin: 5% 0%;
+    padding: 5%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    user-select: none;
+    background-color: rgb(255, 202, 137);
+    color:blueviolet;
+}
+h1{
+    color: blueviolet;
+}
+
+button{
+    background-color: rgb(255, 202, 137);
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    color: blueviolet;
+    padding: 5%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+    color: rgb(255, 202, 137);
+
+}
